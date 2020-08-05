@@ -1,0 +1,82 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+}
+
+img {
+	margin: -10px;
+}
+
+/* menu opmaak */
+ul {
+	list-style-type: none;
+	margin-left: -37px;
+	margin-top: -3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+li {
+	padding: 20px;
+	width: 200px;
+	border: 2px solid  lightgrey;
+}
+
+/*achtergrondkleuren */
+.background-grey {
+	background-color: lightgrey;
+}
+.background-red {
+	background-color: red;
+}
+.background-orange {
+	background-color: orange;
+}
+.background-purple {
+	background-color: purple;
+}
+.background-green {
+	background-color: green;
+}
+.background-grey {
+	background-color:lightgrey;
+}
+
+
+/* achterrondkleuren menu */
+#home {
+	background-color: lightgrey;
+}
+#red {
+	background-color: red;
+}
+#orange {
+	background-color: orange;
+}
+#purple {
+	background-color: purple;
+}
+#green {
+	background-color:green;
+}
+
+
+/* opmaak ingeklapt en uitgeklapt menu */ 
+.menu-closed {
+	overflow: hidden;
+	width: 200px;
+	height: 130px;	
+	transition-property: height;
+	transition-duration: 1000ms;
+}
+	
+.menu-open {	
+	overflow: hidden;
+	width: 200px;
+	height: 900px;
+}
+
+
+
+
+
+
